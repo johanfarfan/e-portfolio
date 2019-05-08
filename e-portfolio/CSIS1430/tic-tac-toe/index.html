@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic Tac Toe Battlebomb</title>
+        <link href="css/style.css" rel="stylesheet" typel="text/css"></style>
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+            <header>
+                <h1>Battlebomb</h1>
+            </header>
+
+            <div class="triple-panel">
+                <div class="left">
+                    <img src="img/p1.png">
+                    <h3>Red</h3>
+                    <br>
+                    <p>Score:</p>
+                    <p id="p1s"></p>
+                </div>
+                <div class="center">
+                    <h2 id="prompt">Fight!</h2><br>
+                    <div class="sub-center">
+                            <div class="blk r1 c1" onclick="playGame(this,1);"></div>
+                            <div class="blk r1 c2" onclick="playGame(this,2);"></div>
+                            <div class="blk r1" onclick="playGame(this,4);"></div>
+                            <div class="blk r2 c1" onclick="playGame(this,8);"></div>
+                            <div class="blk r2 c2" onclick="playGame(this,16);"></div>
+                            <div class="blk r2" onclick="playGame(this,32);"></div>
+                            <div class="blk c1" onclick="playGame(this,64);"></div>
+                            <div class="blk c2" onclick="playGame(this,128);"></div>
+                            <div class="blk" onclick="playGame(this,256);"></div>
+                    </div><br><br>
+                    <a id="restart" onclick="location.reload();">Play Again</a>
+                </div>
+                <div class="right">
+                    <img src="img/p2.png">
+                    <h3>Blue</h3>
+                    <br>
+                    <p>Score:</p>
+                    <p id="p2s"></p>
+                </div>
+            </div>
+
+            <footer>
+                <small>2018 <a href="../index.html">Johan Farfan</a>. Pictures are courtesy of pexels.com and icons8.com.</small>
+                <small>Gifs are courtesy of giphy.com.</small>
+            </footer>
+    </body>
+</html>

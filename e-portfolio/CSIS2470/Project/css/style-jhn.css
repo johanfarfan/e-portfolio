@@ -1,0 +1,30 @@
+html, body {
+    background-color:#343a40;
+    height: 100%;
+    min-height: 100vh;
+}
+.clickable{
+    cursor: pointer;
+}
+
+.container{
+    padding-top: 1em;
+    background: white;
+}
+
+.centered-pic{
+    margin: auto;
+}
+
+.donate-pic{
+    max-width: 250px;
+}
+
+.img-gal-h{
+    width: 150px;
+    height: 99px;
+}
+.img-gal-v{
+    width: 99px;
+    height: 150px;
+}

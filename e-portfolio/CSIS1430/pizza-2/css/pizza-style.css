@@ -1,0 +1,144 @@
+/*orders.html formating*/
+.ingredient-block{
+    display: flex;
+    margin: 0.5em auto;
+    background-color: rgba(66, 66, 66, 0.589);
+    padding: 1em;
+    border: gray solid;
+}
+.floating-ingredient{
+    width: 140px;
+    margin: 1em;
+}
+.form-order{
+    background: url('../img/moto.jpeg');
+    padding: 1em;
+    margin: 1em auto;
+    width: 750px;
+    padding: 1em;
+}
+
+/*contact.html formatting*/
+.form-contact{
+    background: url('../img/pizza-cerveza.jpeg');
+    padding: 1em;
+    margin: 1em auto;
+    width: 750px;
+    padding: 1em;
+}
+
+/* Index.html Formating*/
+#info{
+    width: 60px;
+    background-color: white;
+    color: black;
+    border: gray solid;
+    position: relative;
+    top: 60%;
+    right: 20%;
+    display: block;
+}
+#info_title{
+    color: black
+}
+#info_paragraph{
+    color: black;
+}
+.mini-box{
+    color: white;
+    text-align: center;
+    background-color: rgba(214, 183, 144, 0.671);
+    border-radius: 1em;
+}
+.img-grid{
+    width: 90%;
+    display: block;
+    border-radius: 0.5em;
+    margin: auto;
+    position: relative;
+    top: 5px;
+}
+.mini-box:hover{
+    filter: brightness(50%);
+}
+.content-title{
+    grid-column: 1/5;
+    padding: 0.2em;
+    text-align: center;
+}
+.input-style{
+    margin: 5px;
+    border-style: groove;
+}
+
+/*site formating*/
+.menu-item{
+    float: right;
+    margin: 1px;
+    padding: 0.4em 2em;
+    background-color: burlywood;
+    border: 1px white;
+    border-radius: 0.5em;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color: goldenrod;
+    color: bisque;
+}
+.active{
+    float: right;
+    margin: 1px;
+    padding: 0.4em 2em;
+    border: 1px white;
+    border-radius: 0.5em;
+    text-decoration: none;
+    background-color: goldenrod;
+    color: bisque;
+}
+.common-block{
+    width: 750px;
+    margin: 1em auto;
+    padding: 1em;
+    text-align: center;
+    background-color: dimgray;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: .5em;
+    margin: 1em auto;
+    background: url('../img/menu.jpg');
+    width: 750px;
+    padding: 1em;
+}
+.header{
+    display: block;
+    Margin: 1em auto;
+    width: 800px;
+    height: 180px;
+    padding: 1em;
+    background: url('../img/pizza-nera.jpeg');
+    color: aliceblue;
+    box-sizing: border-box;
+}
+h1, h2{
+    text-shadow: 3px 3px 3px rgb(148, 131, 111);
+}
+iframe{
+    display: block;
+    margin: auto;
+}
+img{
+    width: 100%;
+    margin: 0.5em auto;
+    border-radius: 30%;
+}
+p, h4{
+    text-shadow: 1px 1px 1px black;
+}
+body{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    text-align: center;
+}

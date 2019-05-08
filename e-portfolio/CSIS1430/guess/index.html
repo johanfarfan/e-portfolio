@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="css/style.css" type="text/css" rel="stylesheet">
+        <script src="js/script.js"></script>
+        <title>Guessing Game</title>
+    </head>
+    <body>
+        <Header>
+            <img src="img/one.gif">
+            <H1>The Guessing Game</H1>
+            <p></p>
+        </Header>
+        <div class="main">
+            <img id="changer">
+            <h1 id="notification"></h1>
+            <H3 id="subtittle">Try your guess</H3>
+            <p id="parag">Input a number from 1 to 99</p>
+            <form action="javascript:void(0);">
+                <input id="getter">
+            </form><br><br><br>
+            <a href="#" class="starter" id="starter" onclick="guessit()">Bet!</a>
+            <a href="#" class="reseter" id="reseter" onclick="resetit()">Play Again</a>
+        </div>
+        <footer>
+            <br><br><br><br>
+            <small>2018 <a href="../index.html">Johan Farfan</a>. Pictures are courtesy of pexels.com.</small>
+            <small>Gifs are courtesy of giphy.com.</small>
+            <small>Music is courtesi of epidemicsound.com</small><br><br>
+                <audio controls autoplay>
+                    <source type="audio/mpeg" src="img/DrunkAnimalsNiklasGustavsson.mp3">
+                </audio>
+        </footer>
+    </body>
+</html>

@@ -6,9 +6,10 @@
         <script src="../src/js/jquery-3.3.1.js"></script>
         <script src="../src/js/popper.js"></script>
         <script src="../src/js/bootstrap.min.js"></script>
+        <script src="../src/js/PortfolioScript.js"></script>
     </head>
     
-    <body class="">
+    <body>
         <div class="bg-light fixed-top border-bottom text-right">
             <h4 class="float-left ml-2 mt-2">Johan&apos;s Blog</h4>
             <ul class="nav nav-pills justify-content-end">
@@ -21,137 +22,188 @@
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="http://johansblog.com/e-portfolio/CSIS1430/index.html">CSIS 1430</a>
                         <a class="dropdown-item" href="http://johansblog.com/e-portfolio/CSIS2470/index.html">CSIS 2470</a>
-                        <a class="dropdown-item" href="http://johansblog.com/e-portfolio/HUMA1100/index.html">HUMA 1100</a>
-                        <a class="dropdown-item" href="http://johansblog.com/e-portfolio/ENG2100/index.html">ENG 2100</a>
+                        <a class="dropdown-item" href="http://johansblog.com/e-portfolio/HUMA1100/happiness.html">HUMA 1100</a>
+                        <a class="dropdown-item" href="http://johansblog.com/e-portfolio/ENG2100/Web-Project-Management.html">ENG 2100</a>
                     </div>
                 </li>
             </ul>
         </div>
-        <br><br><br><br><br>
-
-        <div class="container bg-white">
-            <h1 class="shadow-sm bg-light text-warning">Fall 17' Semester</h1>
-            <div class="text-justify">
-                <h4>ENG 1010</h4>
-                <p>English 1010 is probably the biggest challenge for fall 2017 semester, Spanish is my mother language and <b>English</b> is 
-                my second one, in order to advance successfully in the US I need to master my English skills.</p>
-                <p>I always enjoyed thinking and writing essays in Spanish, abut any theme that can come to my mind, not too often, but 
-                certainly I've done it before, even though I've experience writing corporate emails in English, my resources were not close 
-                to what I was able to work up in my first language, most of those writings didn't include any emotion or poetry.</p>
-                <p>I'm expecting that through my studies in this course I will be capable of doing what I can do in Spanish, I know I 
-                will and it’s going to be a joy, it’s a blessing to have the power to communicate and be you in more than one idiom.</p>
-                
-                <div class="bg-light">
-                    <h4 class="text-right">BUS 1010</h4>
-                    <p><b>Business</b> isn't involved in my major, it isn't required to get my certificates but I choose it as one of my electives because 
-                    this kind of knowledge is vital for me, I'm excited to expand my abilities on this area as I ever wanted to have my own small 
-                    business.</p>
-                    <p>Business is not just about knowing the market on the field you want to work in, it can be really interesting and complicated, 
-                    there are many variants involved on it, there are many aspects to study just to get started, to keep on the market, and to 
-                    make a company grow healthy. </p>
-                </div>
-
-                <h4>CSIS 1200</h4>
-                <p><b>The Introduction to Networking</b> class is highly important to obtain some basic knowledge about connections, no matter what kind
-                of CSIS specialization you are aiming for.</p>
-                <p>Theory and practice are mixed together in Intro to Networking, to understand the 
-                many ways how a computer, a cell phone, a server, or even your Tesla car can be interconnected with other devices, and 
-                security isn't excluded from this, so even being a "introductory" class it's loaded with plenty of worth material for my 
-                major.</p>
-                <div class="bg-light">
-                    <H4 class="text-right">CSIS 1550</H4>
-                    <p>As I'm planning to get certificates in Web design and Programming, <b>SQL Programming</b> will allow me to learn the basics for my 
-                    future online databases required for many apps and programs, without SQL probably many companies wouldn't be able to have 
-                    administrative servers sharing the same information for several branches, or it couldn't be possible for Facebook to save the 
-                    pictures that we want to share with family and friends. SQL Programming is a not so complicated and fun course that I am sure 
-                    I will enjoy.</p>
-                </div>
+        <br><br>
+        <div class="text-center text-white mb-4">
+            <img src="img/banner.JPG">
+            <h1 style="position:relative; top: -2em;">Coursework</h1>
+        </div>
+        <div class="container">
+            <p>Here you may find my progress through college divided by semesters, I provided a brief explanation on the activities or the most important projects I developed in those subjects. You may expand the information in each section clicking the <span class="text-success"><strong>+</strong></span></p>
+            <br><br>
+            <div class="bg-dark rounded p-2 mb-5">
+                <h1 class="text-warning d-inline">Fall 17' Semester</h1>
+                <a id="toggler-f17" class="btn btn-light text-dark float-right">Collapse <span class="text-success"><strong>+</strong></span></a>
+                    <div id="Semester-info-f17" class="text-justify">
+                        <div class="bg-light text-dark mt-2 mb-2 p-3">
+                            <h4>ENG 1010</h4>
+                            <p>English 1010 is probably the biggest challenge for fall 2017 semester, Spanish is my mother language and <b>English</b> is 
+                            my second one, in order to advance successfully in the US I need to master my English skills.</p>
+                            <p>I always enjoyed thinking and writing essays in Spanish, abut any theme that can come to my mind, not too often, but 
+                            certainly I've done it before, even though I've experience writing corporate emails in English, my resources were not close 
+                            to what I was able to work up in my first language, most of those writings didn't include any emotion or poetry.</p>
+                            <p>I'm expecting that through my studies in this course I will be capable of doing what I can do in Spanish, I know I 
+                            will and it’s going to be a joy, it’s a blessing to have the power to communicate and be you in more than one idiom.</p>
+                        </div>
+                        <div class="bg-light text-dark mt-2 mb-2 p-3">
+                            <h4 class="text-right">BUS 1010</h4>
+                            <p><b>Business</b> isn't involved in my major, it isn't required to get my certificates but I choose it as one of my electives because 
+                            this kind of knowledge is vital for me, I'm excited to expand my abilities on this area as I ever wanted to have my own small 
+                            business.</p>
+                            <p>Business is not just about knowing the market on the field you want to work in, it can be really interesting and complicated, 
+                            there are many variants involved on it, there are many aspects to study just to get started, to keep on the market, and to 
+                            make a company grow healthy. </p>
+                        </div>
+                        <div class="bg-light text-dark mt-2 mb-2 p-3">
+                            <h4>CSIS 1200</h4>
+                            <p><b>The Introduction to Networking</b> class is highly important to obtain some basic knowledge about connections, no matter what kind
+                            of CSIS specialization you are aiming for.</p>
+                            <p>Theory and practice are mixed together in Intro to Networking, to understand the 
+                            many ways how a computer, a cell phone, a server, or even your Tesla car can be interconnected with other devices, and 
+                            security isn't excluded from this, so even being a "introductory" class it's loaded with plenty of worth material for my 
+                            major.</p>
+                        </div>
+                        <div class="bg-light text-dark mt-2 mb-2 p-3">
+                            <H4 class="text-right">CSIS 1550</H4>
+                            <p>As I'm planning to get certificates in Web design and Programming, <b>SQL Programming</b> will allow me to learn the basics for my 
+                            future online databases required for many apps and programs, without SQL probably many companies wouldn't be able to have 
+                            administrative servers sharing the same information for several branches, or it couldn't be possible for Facebook to save the 
+                            pictures that we want to share with family and friends. SQL Programming is a not so complicated and fun course that I am sure 
+                            I will enjoy.</p>
+                        </div>
+                    </div>
             </div>
-            <br><br><br><br><br><br><br><br><br>
 
-            <h1 class="shadow-sm text-primary">Spring 18' Semester</h1>
-            <div class="text-justify">
-                <h4>ART 1050</h4>
-                <p>As I mention in the “Hobbies and Interests” section of my site, Art is something that I enjoy. Is one of 
-                the most interesting manifestations of the human beings, because even if is not biologically required to live, 
-                the mankind doesn’t stop making any kind of art.</p>
-                <p><b>Photography</b> wasn’t something that I wanted to try since too long ago, I was more into painting, I suddenly had 
-                the curiosity to try it and learn it and I don’t regret it!</p>
-                <p>A wonderful fun class where I learned so many techniques and secrets, it was harder than I thought it’d be,  and 
-                way more complex. At the end it’s just satisfying to see all the progress I made, and now it’s part of my hobbies.</p>
-                
-                
-                <div class="bg-light">
-                    <h4 class="text-right">MATH 980</h4>
-                    <p></p>
-                    <p></p>
-                </div>
-
-                <h4>CSIS 1430</h4>
-                <p></p>I had so much fun learning HTML, CSS and JS 2018's Spring semester. Many of these assignments were challenging, All 
-                the enjoyment that I had might be because this subject might end up becoming my career, Web Programming in general involves 
-                not just programming but design, there should be harmony in the look and functionality of the web page.</p>
-                <p>Whit every new thing you learn you can go back and improve what you already have, trying to make that script 
-                work flawlessly, error proof. Whit every page you make the next one will look better, after all it's a double 
-                exercise; optimizing the look and feel of the site and it's responsiveness. It's always possible to optimize those 
-                first code lines you do when you're a beginner.</p>
-                <p>I can just say it was a great experience that motivates me to go for more knowledge, and a big satisfaction after-work.</p>
-
-                <div class="bg-light">
-                    <h4 class="text-right">CSIS 1032</h4>
-                    <p></p>Who doesn’t love free stuff? I love free software. <b>Linux</b> has always been present in my desktops and laptops either 
-                    Fedora or Ubuntu they are always alongside Windows for me to experiment and ‘play’ whit them.</p>
-                    <p>In a serious fashion, Linux is important and abundant in the internet world, many people don’t have any idea 
-                    about this fact. As a future Web Programmer I’ll need some serious knowledge of Linux in it’s hardest 
-                    presentation, the non-graphical version.</p>
-                    <p>I already have the user experience with the graphical environment, now I just started to learn the administrative 
-                    non-graphical side, just because.. I Like Linux, and I need to know how to set up a web server like the +80% of 
-                    the servers that are currently running out there, a Linux server.</p>
-                </div>
+            <div class="bg-dark rounded p-2 mb-5">
+                <h1 class="text-primary d-inline">Spring 18' Semester</h1>
+                <a id="toggler-s18" class="btn btn-light text-dark float-right">Collapse <span class="text-success"><strong>+</strong></span></a>
+                    <div id="Semester-info-s18" class="text-justify">
+                        <div class="bg-light text-dark mt-2 mb-2 p-3">
+                            <h4>ART 1050</h4>
+                            <p>As I mention in the “Hobbies and Interests” section of my site, Art is something that I enjoy. Is one of 
+                            the most interesting manifestations of the human beings, because even if is not biologically required to live, 
+                            the mankind doesn’t stop making any kind of art.</p>
+                            <p><b>Photography</b> wasn’t something that I wanted to try since too long ago, I was more into painting, I suddenly had 
+                            the curiosity to try it and learn it and I don’t regret it!</p>
+                            <p>A wonderful fun class where I learned so many techniques and secrets, it was harder than I thought it’d be,  and 
+                            way more complex. At the end it’s just satisfying to see all the progress I made, and now it’s part of my hobbies.</p>
+                        </div>
+                        <div class="bg-light text-dark mt-2 mb-2 p-3">
+                            <h4 class="text-right">MATH 980</h4>
+                            <p><strong>** Working on This **</strong></p>
+                        </div>
+                        <div class="bg-light text-dark mt-2 mb-2 p-3">
+                            <h4>CSIS 1430</h4>
+                            <p></p>I had so much fun learning HTML, CSS and JS 2018's Spring semester. Many of these assignments were challenging, All 
+                            the enjoyment that I had might be because this subject might end up becoming my career, Web Programming in general involves 
+                            not just programming but design, there should be harmony in the look and functionality of the web page.</p>
+                            <p>Whit every new thing you learn you can go back and improve what you already have, trying to make that script 
+                            work flawlessly, error proof. Whit every page you make the next one will look better, after all it's a double 
+                            exercise; optimizing the look and feel of the site and it's responsiveness. It's always possible to optimize those 
+                            first code lines you do when you're a beginner.</p>
+                            <p>I can just say it was a great experience that motivates me to go for more knowledge, and a big satisfaction after-work.</p>
+                        </div>
+                        <div class="bg-light text-dark mt-2 mb-2 p-3">
+                            <h4 class="text-right">CSIS 1032</h4>
+                            <p>Who doesn’t love free stuff? I love free software. <b>Linux</b> has always been present in my desktops and laptops either 
+                            Fedora or Ubuntu they are always alongside Windows for me to experiment and ‘play’ whit them.</p>
+                            <p>In a serious fashion, Linux is important and abundant in the internet world, many people don’t have any idea 
+                            about this fact. As a future Web Programmer I’ll need some serious knowledge of Linux in it’s hardest 
+                            presentation, the non-graphical version.</p>
+                            <p>I already have the user experience with the graphical environment, now I just started to learn the administrative 
+                            non-graphical side, just because.. I Like Linux, and I need to know how to set up a web server like the +80% of 
+                            the servers that are currently running out there, a Linux server.</p>
+                        </div>
+                    </div>
             </div>
-            <br><br><br><br><br><br><br><br><br>
 
-            <h1 class="shadow-sm text-warning">Fall 18' Semester</h1>
-            <div class="text-justify">
-                <h4>HUMA 1100</h4>
-                <p><strong>Civic Engagement Project: Happiness</strong></p>
-                <p>Happiness, why happiness? It is something that we always look for even without knowing, it’s been theorized as the main deepest motive why we do things for, the final explanation of our general behavior. Happiness, or the good living is something we all look for but not in the same way. some philosophers and religions have traced the path to reach it according to their believes, and still in modern days we are still studying the good life through science like psychology, like an obsession to know what really makes us happy and the best ways to have a good life.</p>  
-                <a class="btn btn-dark" href="HUMA1100/happiness.html">Happiness</a>
-                <a class="btn btn-dark" href="HUMA1100/ProjectReflection.pdf">Project reflection</a>
-                
-                
-                <div class="bg-light">
-                    <h4 class="text-right">CSIS 2110</h4>
-                    <p></p>
-                </div>
-
-                <h4>CSIS 2470</h4>
-                <p></p>
+            <div class="bg-dark rounded p-2 mb-5">
+                <h1 class="text-warning d-inline">Fall 18' Semester</h1>
+                <a id="toggler-f18" class="btn btn-light text-dark float-right">Collapse <span class="text-success"><strong>+</strong></span></a>
+                    <div id="Semester-info-f18" class="text-justify">
+                            <div class="bg-light text-dark mt-2 mb-2 p-3">
+                                <h4>HUMA 1100</h4>
+                                <p><strong>Civic Engagement Project: Happiness</strong></p>
+                                <p>Happiness, why happiness? It is something that we always look for even without knowing, it’s been theorized as the main deepest motive why we do things for, the final explanation of our general behavior. Happiness, or the good living is something we all look for but not in the same way. some philosophers and religions have traced the path to reach it according to their believes, and still in modern days we are still studying the good life through science like psychology, like an obsession to know what really makes us happy and the best ways to have a good life.</p>  
+                                <a class="btn btn-dark" href="HUMA1100/happiness.html">Happiness</a>
+                                <a class="btn btn-dark" href="HUMA1100/ProjectReflection.pdf">Project reflection</a>
+                            </div>
+                            <div class="bg-light text-dark mt-2 mb-2 p-3">
+                                <h4 class="text-right">CSIS 2110</h4>
+                                <p><strong>** Working on This **</strong></p>
+                            </div>
+                            <div class="bg-light text-dark mt-2 mb-2 p-3">
+                                <h4>CSIS 2470</h4>
+                                <p><strong>** Working on This **</strong></p>
+                            </div>
+                    </div>
             </div>
-            <br><br><br><br><br><br><br><br><br>
 
-            <h1 class="shadow-sm text-primary">Spring 19' Semester</h1>
-            <div class="text-justify">
-                <h4>ENG 2100</h4>
-                <p><strong>Project: VW emissions case</strong></p>
-                <p>This analysis of the VW case will give a brief history of how the problem started, implicitly evaluating the company’s values and leaving open questions about their personal motives but showing their interests and ambitions. Something that cannot be left out are the consequences of such actions that generated a mistrust on the company, and environmental consequences due to the illegal actions taken by them. It’s hard to measure the damage caused by VW, the pollution added to the air, but the consequences on everybody's health can and will be explained.</p> 
-                <a class="btn btn-dark" href="ENG2100/unit2Project.pdf">VW emissions case Paper</a>
-                <p><strong>Project: VW emissions case</strong></p>
-                <p></p>
-                <a class="btn btn-dark" href="ENG2100/Web-Project-Management.html">Design Project: Managing Web Projects</a>
-
-                <div class="bg-light">
-                    <h4 class="text-right">POLS 2100</h4>
-                    <p></p>
-                </div>
-
-                <h4>BUS 2200</h4>
-                <p></p>
-
-                <div class="bg-light">
-                    <h4 class="text-right">PHIL1000</h4>
-                    <p></p>
-
+            <div class="bg-dark rounded p-2 mb-5">
+                <h1 class="text-primary d-inline">Spring 19' Semester</h1>
+                <a id="toggler-s19" class="btn btn-light text-dark float-right">Collapse <span class="text-success"><strong>+</strong></span></a>
+                <div id="Semester-info-s19" class="text-justify">
+                    <div class="bg-light text-dark mt-2 mb-2 p-3">
+                        <h4>ENG 2100</h4>
+                        <p><strong>Executive Summary</strong></p>
+                        <p>ENG2100 was a class based on participation and activities. As practical and demanding as it could have been, it became on the tools to use at practically any profession. It was all about presenting information in a way that our messages had a success with our intentions.</p>
+                        <p>All the power learned from this subject is something I wont underestimate. Even if it was aiming towards a professional level, it feels like most of those principles stay in our heads and are transferred to our personal life.</p>
+                        <ul>
+                            <li><p>Tracing course goals is the best way to start a new subject, more than something to show to others is a self commitment. This was my commitment <a href="ENG2100/GoalsMemo.docx">Download here..</a></p></li>
+                            <li><p>My second step was reflecting on professional communications, what does that involves? how and why it happens? Professional written communications happens in every job, in every field, so it's important to have an idea of what involves professional communications. <a href="ENG2100/ProfessionalCommMemo.docx">Download here..</a></p></li>
+                            <li><p>The first writing project was announced and preparations were needed. Here is what I proposed to work on at that time, a project about ethics using a well known corporate scandal <a href="ENG2100/ProjectProposal.docx">Download here..</a></p></li>
+                            <li><p>Part of creating a professional document or any kind of communication involves some research methods, for the first project an interview with someone relevant to our topic was required. This was a short but helpful interview with a Biologist <a href="ENG2100/Interview.docx">Download here..</a></p></li>
+                            <li><p>Having the project approved, all the previous research transformed into the first writing project, which was reviewed by the SLCC writing center for a final verification. <a href="ENG2100/unit2Project.pdf">Download here..</a></p></li>
+                            <li><p>A different project was announced this time the communication was mostly based on design, I had to think about something useful I wanted to communicate using C.R.A.P. principles. This is a web page proposal to inform junior web developers about project management <a href="ENG2100/Project2proposal.docx">Download here..</a></p></li>
+                            <li><p>This is the final design for the web page <a href="ENG2100/Web-Project-Management.html">Link</a></p></li>
+                            <li><p>Almost finalizing this course, a deep analysis of our Employment materials helped us to improve our documents for the jobs we aim for. Here's how my actual CV and cover letter look like after our activities in class <a href="ENG2100/">Download here..</a></p> </li>
+                            <li><p>Presenting the projects that we worked on during the semester was also an obligation, besides being able to communicate professionally using writing and visuals, verbal and material presenting skills will allow us to perform better explaining our doings in a corporative environment. <a href="ENG2100/Unit4Presentation.pptx">Download here..</a></p> </li>
+                            <li><p>A <strong>Final Reflection</strong> about my experience with ENG2100. A redaction of my progress, my findings and how this subject improved my writing skills. <a href="ENG2100/FinalReflection.pdf">Download here..</a></p> </li>
+                        </ul>
+                    </div>
+                    <div class="bg-light text-dark mt-2 mb-2 p-3">
+                        <h4 class="text-right">POLS 2100</h4>
+                        <a href="POLS2100/UNPeacekeeping.pdf">United Nations Peace Keeping Operations</a>
+                        <p>Starting to work on this assignment made discover a world of unknown things, researching on the United Nations official page -and some other sources- I learned that it&apos;s actually a very active organization, way more than I used to think. When I was trying to decide a conflict from the list of current peacekeeping operations I was interested in something large, and not related to the middle east.</p>
+                        <p>So I found MONUSCO (UN Organization Stabilization Mission in the DR Congo), an operation in the Democratic Republic of Congo so complex that it started with another denomination and it changed because of the evolution of the conflict. Analyzing this conflict took me to study the story of DR Congo, and of course the previous mission that the UN had running in the area.</p>
+                        <p>MONUSCO and other UN operations that I oversaw made me think about my Humanities class, I thought about the real reasons behind the background to this conflict as something that goes beyond just power and corruption, also the more humanistic side of all the happenings and triggering events. Inevitably I thought about Philosophy, I just wondered what ideas are happening in their heads, there are more than a couple of different groups involved in the conflict and my question is what motivates them to follow up with whatever ideals they have, and how the people of the DR congo can stand so much.</p>
+                        <p>I also realized that in order to understand better some topics of any other subjects the more you know about the terms the better you can write about them, and sometimes I&apos;ll require some extra research so my arguments would be more accurate and my statements could be more extensive and explanatories.</p>
+                        <br>
+                        <a href="POLS2100/AfghanistanConflict.pdf">Afghanistan Conflict</a>
+                        <p>This was another work on the US - Afghanistan conflict</p>
+                    </div>
+                    <div class="bg-light text-dark mt-2 mb-2 p-3">
+                        <h4>BUS 2200</h4>
+                            <div class="row">
+                                <div class="col"><img class="w-50" src="https://interviewslccstudents2019.weebly.com/uploads/1/2/4/7/124711237/editor/michael-1.jpg?1556254013"></div>
+                                <div class="col"><img class="w-50" src="https://interviewslccstudents2019.weebly.com/uploads/1/2/4/7/124711237/editor/businessflyer3.png?1556255941"></div>
+                                <div class="col"><img class="w-50" src="https://interviewslccstudents2019.weebly.com/uploads/1/2/4/7/124711237/editor/michael-2.jpg?1556254049"></div>
+                            </div>
+                        <p class="text-center"><small>Communication campaign posters</small></p>
+                        <p>The strategic communication campaign was a group activity that required a lot of planning, coordination and constant communication between the team members. Fortunately we had the instructions on how to work on it, we were taught how to work as an effective team and how to handle the information that we wanted to communicate.</p>
+                        <p>The fact that everything was planned doesn&apos;t mean it wasn&apos;t challenging at all. There was a series of aspects that we had to keep in mind while we were working either in collaboration or with delegated activities, sometimes involving design principles, some other were content related.</p>
+                        <p>It was satisfying to look at our final product after all the efforts, now I have the experience and knowledge to develop a Communication campaign why another group or just by myself if I need to.</p>
+                        <p><a href="BUS2200/StratCommPlanRedRabble.pdf">Strategic Communication Plan</a></p>
+                        <p><a href="https://interviewslccstudents2019.weebly.com/">Communication Campaign Website</a></p>
+                        <p><a href="https://youtu.be/md6YO9O2kKA">Communication Campaign Video</a></p>
+                    </div>
+                    <div class="bg-light text-dark mt-2 mb-2 p-3">
+                        <h4 class="text-right">PHIL 1000</h4>
+                        <p>Philosophy take us to a state of deep thinking, to analyze things that we usually ignore about life and it&apos;s meaning. It is very introspective, philosophers from the ancient Greece were already debating about existence, something that has been transmitted to our modern days, Who are we? What define us?</p>
+                        <p>Probably our moral behavior has something to do with our identity, something curious about philosophy is that it doesn&apos;t lead to a definitive path, to an ultimate truth. The more basic que question is, the more complex it is to answer. And then what&apos;s the end of our actions? Why do we do what we do? Is happiness something that really defines the end of our actions in general? Something that I can agree with is that happiness is definitely our constant search, even without knowing it.</p>
+                        <p>During this course every topic was something that made us think about certain postulation, and then we were taking another one, a different view of life and the human kind. The constant variation of positions and postulation studied on Philosophy1000 had me open to listen and analyze theories that at first time are not too convincing for me, as if I never know where I can find a bit of truth. I still have to work on my own beliefs, the study of Socrates influenced me to question everything, and to not hold arguments of something I&apos;m not completely sure of how it is or how it works.</p>
+                        <p>Now I feel like I&apos;m constantly questioning myself. I&apos;ve became a better thinker because I can dig better into information and arguments so I can look at the very origin of the idea and analyze if everything involved has cohesive logic.</p>
+                        <p>I think philosophy in general makes you think so much about how we see and think about things that it actually enhance your sense of moral. Philosophers were the example, they were making theories and postulating ideas about life and humanity because they cared about everything they could perceive. Regardless if some of them were fighting in some way another currents of thinking, I believe that they thought they had a responsibility to educate the ones who surrounded them. This is, what I consider the most important thing I&apos;m taking from this course, and something that will be part of my ideals.</p>
+                        <p>No doubt philosophy is tightly related to Humanities, even some topics like Happiness and Ethics were in common for both classes. My Humanities class -one of the most personally constructive classes I had ever- Helped me a lot to assimilate most of the topics covered in Philosophy. </p>
+                        <p><strong>My Philosophy Papers</strong></p>
+                        <p><a href="PHIL1000/MoralView.pdf">Although Socrates was a wise Philosopher, he missed several holes in his Moral Intellectualism Doctrine</a></p>
+                        <p><a href="PHIL1000/EthicalTheories.pdf">Utilitarianism gives a more effective way to spread moral than Kantianism </a></p>
+                    </div>
                 </div>
             </div>
         </div>

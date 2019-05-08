@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.imgbanner{
+    display: none;
+}
+.intro{
+    padding: 15em 1em;
+    background-color: rgb(24, 21, 21);
+}
+.container1{
+    margin-top: 15em;
+    padding: 1em;
+    display: flex;
+}
+.container2{
+    padding: 15em 1em;
+    margin-top: 15em;
+    background-color: rgb(24, 21, 21);
+}
+.subcontainer2{
+    padding-bottom: 5em;
+    background: rgb(66, 66, 66);
+}
+.container3{
+    padding: 1em;
+    margin-top: 15em;
+}
+.container4{
+    padding: 10em 1em;
+    margin-top: 15em;
+    background-color: rgb(24, 21, 21);
+}
+.subcontainer4{
+    display: flex;
+    contain: content;
+}
+.subcontainer4 small{
+    font-size: 1.1em;
+    margin-top: 2em;
+}
+.container4 img{
+    border-radius: 50%;
+    margin: 1em;
+}
+img{
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+li{
+    margin: 1em;
+    text-decoration: none;
+    display: inline-flex;
+}
+li :hover{
+    background-color: black;
+}
+.gallery{
+    width: 25%;
+    height: 25%;
+}
+.menuitem{
+    padding: 0.2em 1.5em;
+    color: whitesmoke;
+    text-shadow: powderblue 1px 1px 1px;
+    background-color: rgb(190, 18, 18);
+    text-decoration: none;
+}
+a{
+    color: gray;
+}
+a :visited{
+    color: gray;
+}
+body{
+    text-align: center;
+    font-family: georgia;
+    background-color: rgb(21, 21, 41);
+    color: whitesmoke;
+    font-family: Curier;
+}
+ul{
+    display: inline;
+}
+.header{
+    padding: 1em;
+    margin: 1em;
+    height: 100px;
+    background-color: rgb(24, 21, 21);
+    background-image: url('../img/bathead.jpg');
+    background-repeat: no-repeat;
+    width: 60%;
+    min-width: 700px;
+    display: block;
+    margin: auto;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0px;
+    right: 20%;
+}
+.section{
+    width: 60%;
+    min-width: 700px;
+    display: block;
+    margin: auto;
+    margin-top: 5em;
+    background-color: grey;
+    line-height: 2em;
+    font-size: larger;
+}
+footer{
+    padding: 1em;
+    margin: 1em;
+    width: 60%;
+    min-width: 700px;
+    display: block;
+    margin: auto;
+}

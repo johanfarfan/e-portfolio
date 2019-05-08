@@ -1,0 +1,80 @@
+.menu-item{
+    float: right;
+    padding: 0.5em 2em;
+    list-style: none;
+    background-color: dimgray;
+    border: 1px white;
+    text-decoration: none;
+    color: white;
+}
+.img-grid{
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+.img-grid:hover{
+    border-radius: 30px;
+    filter: brightness(50%);
+}
+.fullgrid-block{
+    grid-column: 1/5;
+    padding: 1em;
+    text-align: center;
+    background-color: dimgray;
+}
+.content-title{
+    grid-column: 1/5;
+    padding: 0.2em;
+    text-align: center;
+    background-color: dimgray;
+}
+.side-form-comments{
+    grid-column: 1/2;
+    padding: 1em;
+    background-color: dimgray;
+}
+.form-div{
+    background: url('../img/pizza-cerveza.jpeg') center;
+    grid-column: 2/5;
+    padding: 1em;
+    background-color: dimgray;
+}
+.input-style{
+    margin: 5px;
+    border-style: groove;
+}
+a:hover{
+    background-color: goldenrod;
+    color: bisque;
+}
+.mini-box{
+    color: black;
+    text-align: center;
+}
+.header{
+    display: block;
+    Margin: 1em auto;
+    width: 750px;
+    height: 180px;
+    padding: 2em;
+    background: url('../img/pizza-nera.jpeg');
+    color: aliceblue;
+    -webkit-text-stroke: 0px 0px 2px rgb(37, 37, 37);
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: .5em;
+    margin: 1em auto;
+    background-color: aliceblue;
+    width: 750px;
+    padding: 1em;
+    height: auto;
+}
+h3 h2 p{
+    text-align: center;
+}
+body{
+    background-color: rgb(32, 32, 32);
+    color: white;
+}

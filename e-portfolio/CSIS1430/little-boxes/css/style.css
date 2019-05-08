@@ -1,0 +1,78 @@
+.main-container{
+    width: 900px;
+    padding: 3em;
+    border: gray solid;
+    margin: auto;
+    display: flex;
+    background-color: black;
+}
+.left-pad{
+    width: 120px;
+    height: 370px;
+    border-top-left-radius: 5em;
+    border-bottom-left-radius: 5em;
+    background-color: rgb(243, 239, 239);
+    border: rgb(160, 154, 154) solid;
+    text-align: center;
+    padding: 1em;
+    float: right;
+}
+.right-pad{
+    width: 120px;
+    height: 370;
+    border-top-right-radius: 5em;
+    border-bottom-right-radius: 5em;
+    background-color: rgb(255, 30, 30);
+    border: rgb(158, 4, 4) solid;
+    text-align: center;
+    padding: 1em;
+    float: right;
+}
+.tablet{
+    background-color: rgb(77, 75, 75);
+    width: 620px;
+    height: 380px;
+    border: rgb(49, 48, 48) solid;
+    padding: 10px;
+    display: block;
+    float: right;
+}
+.internal-tablet{
+    background-color: rgb(51, 50, 50);
+    display: block;
+    padding: 30px;
+}
+.glass{
+    display: block;
+    width: 560px;
+    height: 315px;
+    contain: content;
+    background-color: black;
+}
+.button{
+    border: black solid 1px;
+    border-radius: 50%;
+    background-color: rgb(51, 50, 50);
+    padding: 0.5em;
+    position: relative;
+    display: inline-block;
+}
+.stic{
+    border: black solid 2px;
+    border-radius: 50%;
+    background-color: rgb(51, 50, 50);
+    padding: 0.2em;
+    position: relative;
+    display: inline-block;
+}
+
+.internal-sensor{
+    border-radius: 50%;
+    width: 100%;
+    background-color: rgb(49, 48, 48);
+}
+body{
+    font-family: Helvetica;
+    text-shadow: dimgrey;
+    background-color: rgb(32, 31, 31);
+}

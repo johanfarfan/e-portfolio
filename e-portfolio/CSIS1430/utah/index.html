@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Utah Map</title>
+        <style>
+        header{
+            width: 80%;
+            max-width: 1000px;
+            min-width: 675px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 25% 70%;
+            grid-gap: 1em;
+            font-size: 1.5em;
+            background: url('./img/UtahFall.jpg') no-repeat;
+            color:rgb(247, 236, 228);
+            text-shadow: 2px 2px 2px black;
+        }
+        footer{
+            width: 80%;
+            max-width: 1000px;
+            min-width: 675px;
+            margin: 1em auto;
+            text-align: center;
+            background-color: black;
+        }
+
+        #bobody{
+            width: 80%;
+            max-width: 1000px;
+            min-width: 675px;
+            margin: 1em auto;
+            display:grid;
+            grid-template-columns: 1fr;
+            grid-gap: 1em;
+            text-align: center;
+        }
+        #bobody >div{
+            background-color: rgb(34, 33, 33);
+            padding: 1em;
+        }
+        body{
+            font-family: Tahoma;
+            background-color: rgb(73, 109, 69);
+            color: aliceblue;
+            line-height: 1.5em;
+        }
+        .banner-flag{
+            padding: 1em;
+        }
+        #utahmap{
+            margin: 2em auto;
+            display: block;
+        }
+        p{
+            align-items: center;
+        }
+        </style>
+    </head>
+    <body>
+
+        <header>
+            <div>
+                <img class="banner-flag" src="./img/utah-flag.png" width="150px">
+            </div>
+            <div>
+                <h1>Utah</h1>
+                <p>Come and get to know one of the most wonderful states in the USA</p>
+            </div>
+        </header>
+
+        <section id="bobody">
+            <div>
+                <p>Utah is a state in the western United States. It became the 45th state admitted to the U.S. on January 4, 1896. Utah is the 13th-largest by area, 31st-most-populous, and 10th-least-densely populated of the 50 United States. Utah has a population of more than 3 million (Census estimate for July 1, 2016). Urban development is mostly concentrated in two areas: the Wasatch Front in the north-central part of the state, which contains approximately 2.5 million people; and Washington County in Southern Utah, with over 160,000 residents. Utah is bordered by Colorado to the east, Wyoming to the northeast, Idaho to the north, Arizona to the south, and Nevada to the west. It also touches a corner of New Mexico in the southeast.</p>
+            </div>
+            <div>
+            <h1>Counties</h1>
+            <P>Click on the map to get more information about the counties in Utah.</P>
+            <img id="utahmap" src="./img/UtahW.jpg" usemap="#image-map">
+                <map name="image-map">
+                    <area target="" alt="San Juan" title="San Juan" href="https://sanjuancounty.org/" coords="542,587,659,585,665,829,370,833,416,812,495,690,560,639" shape="poly">
+                    <area target="" alt="Kane" title="Kane" href="http://www.visitsouthernutah.com/" coords="163,746,452,746,409,810,356,832,159,832,159,832" shape="poly">
+                    <area target="" alt="Washington" title="Washington" href="https://washingtoncity.org/tex/" coords="10,728,86,728,84,746,157,751,153,831,8,829" shape="poly">
+                    <area target="" alt="Iron" title="Iron" href="https://www.ironcounty.net/" coords="10,641,208,643,209,682,190,697,186,740,90,741,91,725,10,724" shape="poly">
+                    <area target="" alt="Garfield" title="Garfield" href="http://garfield.utah.gov/" coords="214,645,542,645,490,685,452,743,191,741,195,700,218,680" shape="poly">
+                    <area target="" alt="Wayne" title="Wayne" href="http://www.waynecountyutah.org/" coords="308,585,533,588,551,632,548,641,297,642,296,602" shape="poly">
+                    <area target="" alt="Piute" title="Piute" href="https://stateparks.utah.gov/parks/piute/" coords="212,584,302,588,292,601,292,641,221,642,238,614" shape="poly">
+                    <area target="" alt="Beaver" title="Beaver" href="https://beavercountry.com/" coords="14,571,208,575,209,591,232,612,216,641,12,637" shape="poly">
+                    <area target="" alt="Millard" title="Millard" href="https://www.millardcounty.org/" coords="19,412,254,415,252,448,276,455,274,503,246,552,218,559,210,571,14,567" shape="poly">
+                    <area target="" alt="Sevier" title="Sevier" href="http://www.sevierutah.net/index.aspx?nid=105" coords="278,500,368,500,364,583,213,581,220,562,245,557" shape="poly">
+                    <area target="" alt="Emery" title="Emery" href="http://www.sanrafaelcountry.com/" coords="376,391,396,426,534,427,514,517,535,582,370,580,369,431,377,428" shape="poly">
+                    <area target="" alt="Grand" title="Grand" href="http://www.grandcountyutah.net/" coords="536,427,657,424,657,582,540,582,517,514" shape="poly">
+                    <area target="" alt="Sanpete" title="Sanpete" href="http://sanpete.com/" coords="324,373,374,374,372,424,362,426,363,496,278,497,279,453,294,445,315,443,317,395,334,386" shape="poly">
+                    <area target="" alt="Carbon" title="Carbon" href="https://www.carbon.utah.gov/" coords="376,374,548,371,530,424,398,423,378,390" shape="poly">
+                    <area target="" alt="Uintah" title="Uintah" href="http://www.uintahcity.com/" coords="538,205,556,215,598,203,604,216,616,198,636,196,651,229,657,419,533,423,552,372,542,368" shape="poly">
+                    <area target="" alt="Duchesne" title="Duchesne" href="http://www.duchesnecity.com/" coords="422,221,492,205,533,206,538,369,427,371" shape="poly">
+                    <area target="" alt="Wasatch" title="Wasatch" href="https://www.wasatchparksandrec.com/" coords="336,241,354,229,388,251,418,228,419,356,399,355,378,332,379,295,349,290,330,268" shape="poly">
+                    <area target="" alt="Utah" title="Utah" href="http://www.co.utah.ut.us/" coords="258,264,285,273,335,245,327,269,347,293,377,298,375,335,397,357,421,359,422,370,311,371,316,364,301,350,277,375,260,341" shape="poly">
+                    <area target="" alt="Tooele" title="Tooele" href="http://tooelecity.org/" coords="28,174,181,175,216,165,250,225,255,335,235,354,20,351" shape="poly">
+                    <area target="" alt="Box Elder" title="Box Elder" href="http://www.boxeldercounty.org/" coords="30,5,260,11,294,100,278,114,252,116,216,158,176,171,26,171" shape="poly">
+                    <area target="" alt="Cache" title="Cache" href="https://www.cachecounty.org/" coords="262,9,346,12,352,63,341,104,314,113,295,106" shape="poly">
+                    <area target="" alt="Rich" title="Rich" href="http://www.richcountyut.org/" coords="348,11,399,11,398,133,376,148,354,111,344,103,358,63" shape="poly">
+                    <area target="" alt="Morgan" title="Morgan" href="http://morgancityut.org/" coords="353,115,372,149,334,178,345,199,339,210,324,205,305,186,297,150,309,139,320,147,350,134" shape="poly">
+                    <area target="" alt="Summit" title="Summit" href="http://www.co.summit.ut.us/" coords="338,178,398,138,399,176,535,175,534,203,489,201,419,219,386,245,357,225,337,235,325,209,340,213,349,200" shape="poly">
+                    <area target="" alt="Dagget" title="Dagget" href="http://www.daggettcounty.org/" coords="538,173,650,171,652,221,638,191,612,192,604,207,596,196,556,211,535,202" shape="poly">
+                    <area target="" alt="Salt Lake" title="Salt Lake" href="http://www.daggettcounty.org/" coords="248,212,254,225,256,260,283,268,332,241,320,209,289,205,283,187" shape="poly">
+                    <area target="" alt="Davis" title="Davis" href="http://www.co.davis.ut.us/" coords="218,161,255,150,294,153,301,184,316,202,292,202,284,180,246,206" shape="poly">
+                    <area target="" alt="Juab" title="Juab" href="http://www.co.juab.ut.us/" coords="19,355,236,356,256,338,275,380,300,355,310,365,306,374,321,374,329,385,312,394,312,437,292,440,276,448,256,446,257,410,20,408" shape="poly">
+                    <area target="" alt="Weber" title="Weber" href="http://www.webercountyutah.gov/" coords="219,157,252,119,276,119,291,104,312,115,340,105,352,115,346,132,320,145,309,135,294,147" shape="poly">
+                </map>
+            </div>
+            <div>
+                <p>
+                        The state is a center of transportation, education, information technology and research, government services, mining, and a major tourist destination for outdoor recreation. In 2013, the U.S. Census Bureau estimated that Utah had the second fastest-growing population of any state. St. George was the fastest-growing metropolitan area in the United States from 2000 to 2005. Utah also has the 14th highest median average income and the least income inequality of any U.S. state. A 2012 Gallup national survey found Utah overall to be the "best state to live in" based on 13 forward-looking measurements including various economic, lifestyle, and health-related outlook metrics.
+                </p>
+            </div>
+            <div>
+                <p>
+                        Approximately 62% of Utahns are reported to be members of The Church of Jesus Christ of Latter-day Saints or LDS (Mormons), which greatly influences Utahn culture and daily life. The LDS Church's world headquarters is located in Salt Lake City. Utah is the only state with a majority population belonging to a single church.
+                </p>
+            </div>
+        </section>
+        <footer>
+            <p><a href="../index.html">johan S Farfan</a> 2018. The websites linked within the map belongs to state institutions, and they are referred to the visitors to get an overview of each county. 2018</p>
+            <p>All the text used in this web page comes from <a href="https://en.wikipedia.org/wiki/Utah">Wikipedia</a></p>
+        </footer>
+    </body>
+</html>

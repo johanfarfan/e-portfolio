@@ -1,0 +1,45 @@
+{
+    "hobby": [{
+            "id": 1,
+            "Name": "Running",
+            "Type": "Physical",
+            "Pic":"images/1.jpg",
+            "Desc": "Running after work can help to relief all the stress gained during the day, it also helps me to things I need to do, weird uh?"
+        },
+    {
+            "id": 2,
+            "Name": "Listening Music",
+            "Type": "Relaxation",
+            "Pic":"images/2.jpg",
+            "Desc": "Who doesn't like music? It doesn't matter, you don't want to know that awful being"
+        },
+    {
+            "id": 3,
+            "Name": "Gaming",
+            "Type": "Relaxation",
+            "Pic":"images/3.jpeg",
+            "Desc": "Cuz why not?"
+        },
+    {
+            "id": 4,
+            "Name": "Coding",
+            "Type": "Lifestyle",
+            "Pic":"images/4.jpeg",
+            "Desc": "Well, I'm probably going to live of this, so.."
+        },
+    {
+            "id": 5,
+            "Name": "Crafting and Drawing",
+            "Type": "Arts",
+            "Pic":"images/5.jpg",
+            "Desc": "It's something that I love and something that I need to retake."
+        },
+    {
+            "id": 6,
+            "Name": "Rollerblading",
+            "Type": "Physical",
+            "Pic":"images/6.jpg",
+            "Desc": "For a day off, to have fun, and burn all those calories"
+        }
+    ]
+}

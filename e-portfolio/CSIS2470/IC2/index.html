@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>List of Cool Books</title>
+        <link href="../simplebs.css" rel="stylesheet" type="text/css">
+        <script src="BookList.js"></script>
+        
+    </head>
+    <body>
+        <div class="container">
+            <h1>List of Cool Books</h1>
+            <!--this div will contain the list of books-->
+            <div id="port" class="container"></div>
+        </div>
+        <!--this script will run automatically filling the div named "port" with the desired list-->
+        <script>
+            //"listbook" is a variable that I use to take the lenght of the object "Books" from the js file
+            //as I could not easily make it work I needed to use the function Object.keys (thanks google one more time)
+            //in order to properly take the lenght data from "Books"
+            var listbook = Object.keys(Books).length;
+            //"collector" will take all the information from "Books" and it will format it to show into proper HTML
+            var collector = "";
+            var i = 0;
+            //just a while loop for "collector" to obtain all the information from books whiout skipping anything
+                while (i < listbook){
+                    if (Books[i].Forsale == true){
+                        collector += Books[i].Title + "<ul>";
+                        collector += "<li>" + Books[i].Author + "</li>";
+                        if (Books[i].Forsale == true) collector += "<li>" + Books[i].Price + "</li>";
+                        if (Books[i].Awards != "" && Books[i].Awards != null) collector += "<li>" + Books[i].Awards + "</li>";
+                        collector += "<li>" + Books[i].Publisher + "</li></ul><br>";
+                    }
+                    i++;
+                }
+            document.getElementById("port").innerHTML = collector;
+        </script>
+        <footer>
+            <p>2018, Johan Farfan</p>
+            <a href="../index.html">Home</a>
+        </footer>
+    </body>
+</html>

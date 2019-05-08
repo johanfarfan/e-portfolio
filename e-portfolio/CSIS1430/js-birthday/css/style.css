@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+}
+body{
+    color: deeppink;
+    font-family: cursive;
+    text-align: center;
+    background-image: url('../img/teaparty.jpeg');
+    background-size: cover;
+}
+header, section{
+    margin: .5em auto;
+    padding: 3em 1em;
+    display: block;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.493);
+}
+#sb{
+    width: 200px;
+    border-radius: 1em;
+    cursor: pointer;
+}

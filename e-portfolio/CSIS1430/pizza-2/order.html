@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Orders - Yummi</title>
+    <link type="text/css" href="css/pizza-style.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <h1>Pizza Il Filio</h1>
+        <h4>Le migliori pizze, italiane al cento per cento originali, ordinano con noi e scoprono il vero gusto della pizza</h4>
+        <a class="menu-item" href="about.html">About</a>
+        <a class="menu-item" href="contact.html">Contact Us</a>
+        <a class="active" href="order.html">Orders</a>
+        <a class="menu-item" href="index.html">Home</a>
+    </header>
+
+    <div class="form-order">
+        <h2>Customize your Pizza</h2>
+        <form method="post" action="http://www.stonecoldprofessor.com/1430/pizza-form/order-process.php">
+            <div class="ingredient-block">
+                <h2>Toppings</h2>
+                    <div class="floating-ingredient">
+                        <img src="./img/pepperoni.jpg">
+                        <input type="checkbox" name="toppings[]" value="Pepperoni">Pepperoni</imput>
+                    </div>
+                    <div class="floating-ingredient">
+                        <img src="./img/salami.jpg">
+                        <input type="checkbox" name="toppings[]" value="Salami">Salami</imput>
+                    </div>
+                    <div class="floating-ingredient">
+                        <img src="./img/ham.jpeg">
+                        <input type="checkbox" name="toppings[]" value="Ham">Ham</imput>
+                    </div>
+                    <div class="floating-ingredient">
+                        <img src="./img/bacon.jpeg">
+                        <input type="checkbox" name="toppings[]" value="Bacon">Bacon</imput>
+                    </div>
+            </div>
+            <div class="ingredient-block">
+                <h2>Crust</h2>
+                    <div class="floating-ingredient">
+                        <img src="./img/deep-dish.jpg">
+                        <input type="radio" name="Crust" value="Deep Dish">Deep Dish</imput>
+                    </div>
+                    <div class="floating-ingredient">
+                        <img src="./img/cheese.jpg">
+                        <input type="radio" name="Crust" value="Chesse Stuffed">Chesse Stuffed</imput>
+                    </div>
+                    <div class="floating-ingredient">
+                        <img src="./img/pan.jpg">
+                        <input type="radio" name="Crust" value="Pan">Pan</imput>
+                    </div>
+            </div>
+            <div>
+                <h2>size</h2>
+                <select>
+                    <option name="X-Large">X-Large</option>
+                    <option name="Large">Large</option>
+                    <option name="Medium">Medium</option>
+                    <option name="Small">Small</option>
+                    <br>
+                </select>
+            </div>
+            <div class="ingredient-block">
+                <div>
+                    <h2>Customer Information</h2>
+                    <input class="input-style" type="text" placeholder="Name" name="first"><br>
+                    <input class="input-style" type="text" placeholder="Last Name" name="last"><br>
+                </div>
+                <div>
+                    <h2>Address</h2>
+                    <input class="input-style" type="text" placeholder="Address" name="add1"><br>
+                    <input class="input-style" type="text" placeholder="" name="add2"><br>
+                    <input class="input-style" type="text" placeholder="City" name="city">
+                    <input class="input-style" type="text" placeholder="State" name="state"><br>
+                    <input class="input-style" type="text" placeholder="Zip" name="zip"><br>
+                </div>
+                <div>
+                    <h2>Additional information</h2>
+                    <input class="input-style" type="text" placeholder="Phone Number" name="phone"><br>
+                    <input class="input-style" type="text" placeholder="Email" name="email"><br>
+                    <input class="input-style" type="text" placeholder="Comments" name="comments">
+                </div>
+            </div>
+            <div>
+                <input type="submit" value="Send">
+                <input type="reset" value="Clear all"><br>
+                <p>facendo clic su Invia, ordinerai tutto ciò che è contrassegnato in questo modulo, controlla l'ordine prima di inviarlo</p>
+            </div>
+        </form>
+    </div>
+    
+    <footer>
+        <p>2018 Johan Farfan. Pictures are courtesy of pexels.com</p>
+    </footer>
+</body>
+</html>

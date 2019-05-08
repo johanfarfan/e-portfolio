@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>JavaScript Basics with JSON Format</title>
+        <link rel="stylesheet" href="http://www.profhunter.net/CSIS2440/styles/layout.css" type="text/css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            var data = {"Adventure": [
+                    {
+                        "place": "The Place to start",
+                        "option1": {
+                            "text": "some choice",
+                            "value": 1},
+                        "option2": {"text": "Other choice",
+                            "value": 2}
+                    },
+                    {
+                        "place": "The Next Place",
+                        "option1": {
+                            "text": "Another Choice",
+                            "value": 3},
+                        "option2": {"text": "Back to start",
+                            "value": 0}
+                    },
+                    {
+                        "place": "The Other Choice",
+                        "option1": {
+                            "text": "Final Choice",
+                            "value": 3},
+                        "option2": {"text": "Back to Start",
+                            "value": 0}
+                    },
+                    {
+                        "place": "The Last Choice",
+                        "option1": {
+                            "text": "some choice",
+                            "value": 0},
+                        "option2": {"text": "Other choice",
+                            "value": 0}
+                    }
+                ]}
+            var choice = 0;
+            function adventureOn(choice) {
+                document.getElementById("placeholder").innerHTML = "<form><p>" + data.Adventure[choice].place + "</p><p> "
+                        + "<input type=\"radio\" value=\"" + data.Adventure[choice].option1.value + "\" onchange=\"adventureOn(this.value)\">"
+                        + data.Adventure[choice].option1.text 
+                        + "<br><input type=\"radio\" value=\"" + data.Adventure[choice].option2.value + "\" onchange=\"adventureOn(this.value)\">"
+                        +data.Adventure[choice].option2.text;
+            }
+        </script>
+    </head>
+    <body>
+        <div id="placeholder">
+            <form>
+                <p>Start here</p>
+                <p>
+                    <input type="radio" value="0" onchange="adventureOn(this.value)">Start
+                </p>
+            </form>
+        </div>
+    
+    </body>
+</html>

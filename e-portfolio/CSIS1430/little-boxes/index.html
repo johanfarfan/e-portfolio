@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Switch in boxes</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <style>
+            #left-stic {top: 35px; left: 20px;}
+            #up {top: 120px; left: -25px;}
+            #left {top: 110px; left: -5px}
+            #right {top: 110px; left: 5px;}
+            #down {top: 115px;}
+            .sensor {top: 145px; left: 55px; position: relative; width: 100%; border: black solid 1px; background-color: rgb(77, 75, 75); width: 20px; height: 20px;}
+
+            #x-button {top: 35px; left: 15px;}
+            #y-button {top: 75px; left: -45px;}
+            #b-button {top: 40px; left: 35px;}
+            #a-button {top: 80px; left: -20px;}
+            #right-stic {top: 110px;}
+            #home {position: relative; border-radius: 50%; top: 135px; left: 10px; width: 20px; height: 20px;}
+            
+            #pokemonvideo {display: none;}
+
+        </style>
+        <script>
+            
+            var power = boolean;
+            power = false;
+
+            function on_off() {
+                if (power == false) {
+                    document.getElementById("pokemonvideo").style.display='block';
+                    power=true;
+                }else{
+                    document.getElementById("pokemonvideo").style.display='none';
+                    power=false;
+                }
+            }
+        </script>
+    </head>
+    <body>
+            <header style="width: 900px; padding: 1em 3em; border: rgb(158, 4, 4) solid; margin: 1em auto; background-color: rgb(255, 30, 30); color: snow;">
+                <h1>Switch with little boxes</h1>
+                <p>A Nintendo Switch created using CSS. Don't forget to turn it on 'cause it works!</p>
+            </header>
+            <section class="main-container">
+                <div class="left-pad">
+                    <div class="stic" id="left-stic">
+                            <div style="padding: 1em; background-color: rgb(77, 75, 75); border-radius: 50%">&middot;</div>
+                    </div>
+                    <div class="button" id="up"><b>&Hat;</b></div>
+                    <div class="button" id="left"><b>&lt;</b></div>
+                    <div class="button" id="right"><b>&gt;</b></div>
+                    <div class="button" id="down"><b>v</b></div>
+                    <div class="sensor">
+                        <div class="internal-sensor">&middot;</div>
+                    </div>
+                </div>
+
+                <div class="tablet">
+                    <div class="internal-tablet">
+                        <div class="glass">
+                                <iframe id="pokemonvideo" width="560" height="315" src="https://www.youtube.com/embed/RsZXQeZBCjY" controls="0" fs="0" frameborder="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right-pad">
+                    <div class="button" id="x-button"><b>X</b></div>
+                    <div class="button" id="y-button"><b>Y</b></div>
+                    <div class="button" id="b-button"><b>B</b></div>
+                    <div class="button" id="a-button"><b>A</b></div>
+
+                    <div class="stic" id="right-stic">
+                            <div style="padding: 1em; background-color: rgb(77, 75, 75); border-radius: 50%;">&middot;</div>
+                    </div>
+                    <div id="home">
+                        <img src="img/home.png" width="100%" height="100%" onclick="on_off()">
+                    </div>
+                </div>
+            </section>
+            <footer style="width: 900px; padding: 1em 3em; background-color: rgb(243, 239, 239); border: rgb(160, 154, 154) solid; margin: 1em auto; color: rgb(49, 48, 48);">
+                <h1>ポケモンが任天堂スイッチに来る</h1>
+                <p>Nintendo Switchコンソール用の最初のポケモンタイトルを紹介します。 </p>
+                <p>アリーナの戦いで他のポケモンを倒すために、21人の賞賛されたポケモンの戦士の1人を直接コントロールしてください。</p>
+                <p>サポートポケモンに電話して戦いを助け、あなたのポケモンのユニークなバーストアタックを放ち、その上に登る。</p>
+                <p>すべての新しいモードと友人との新しい戦闘方法で、これはフェラム地域のチャンピオンになるあなたのチャンスです！</p>
+            </footer>
+    </body>    
+</html>       

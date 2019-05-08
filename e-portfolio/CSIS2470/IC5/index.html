@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Carousel</title>
+        <link rel="stylesheet" href="../simplebs.css">
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript" src="jquery-cycle-all.js"></script>
+        <script type="text/javascript" src="bookInfo.js"></script>
+        <script type="text/javascript">
+            var html = '';
+            $(document).ready(function (){
+                $.getJSON('products.json', function (data){
+                    $.each(data, function (key, value){
+                        $.each(value, function (index, stuff){
+                            console.log(index + " " + stuff.Author);
+                            html += '<div class = "books">';
+                            html += '<h2 id = "title">';
+                            html += '<h4>' + stuff.Title + '</h4>';
+                            html += '<p onclick= "bookinfo (' + stuff.id + ')"><img src ="' + stuff.Source 
+                                + '"></p></div>';
+                        });
+                    });
+                    $('#books').html(html);
+                    $('#books').cycle({
+                        fx: 'fade',
+                        pause: '1',
+                        prev: '#prev',
+                        next: '#next',
+                        speed: 500,
+                        timeout: 10000
+                    });
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Books Carousel</h1>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col"><a href="#" id="prev">Previous</a></div>
+                <div class="col" id="books"></div>
+                <div class="col"><a href="#" id="next">Next</a></div>
+            </div>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><hr>
+            <div class="container" id="information">
+                <figure>
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+        </div>
+        <footer>
+            <p>2018, Johan Farfan</p>
+            <a href="../index.html">Home</a>
+        </footer>
+    </body>
+</html>

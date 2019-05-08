@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Friends and Family</title>
+        <script src="FamilyAndFriends.js"></script>
+        <link href="../simplebs.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Friends and Family</h1>
+            <hr>
+        </div>
+        <div class="container">
+                <div class="row">
+                        <div class="col">
+                            <p>Fill the indicated blank spaces with information related to your friends and family</p>
+                                <form action="">
+                                    <p>Relative First Name:</p>
+                                    <input id="nombre" type="text"><br>
+                                    <p>Relation:</p>
+                                    <select id="relacion">
+                                        <option value="Mother">Mother</option>
+                                        <option value="Father">Father</option>
+                                        <option value="Brother">Brother</option>
+                                        <option value="Sister">Sister</option>
+                                        <option value="Daughter">Daughter</option>
+                                        <option value="Son">Son</option>
+                                        <option value="Cousin">Cousin</option>
+                                        <option value="Friend">Friend</option>
+                                        <option value="Grandma">Grandma</option>
+                                        <option value="Grandpa">Grandpa</option>
+                                        <option value="Aunt">Aunt</option>
+                                        <option value="Uncle">Uncle</option>
+                                    </select><br><br>
+                                    <button onclick="searchF();">Search your for your relatives / friends</button>
+                                </form>
+                        </div>
+                        <div class="col">
+                            <p>To check all the entries in our database please click on the button below</p>
+                            <button onclick="showAll();">Show All</button><br><br><br>
+                            <p>To clear all, please click below</p>
+                            <button onclick="clrAll();">Clear All</button>
+                        </div>
+                        <div id="content" class="container">
+                        </div>
+                </div>
+        </div>
+        <footer>
+            <br><br><br>
+            <p>2018, Johan Farfan</p>
+            <a href="../index.html">Home</a>
+        </footer>
+    </body>
+</html>

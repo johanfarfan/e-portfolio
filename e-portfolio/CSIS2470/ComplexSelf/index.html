@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Complex Self</title>
+        <link href="../simplebs.css" rel="stylesheet" type="text/css">
+        <script>
+            var guy = {
+            "name":"Pancho Villa",
+            "age":35,
+            "maritals":false,
+            "classes":[40, 20, 30],
+                "hobbie":{
+                    "hobbiename":"Mariachi",
+                    "shortdescription":"plays the guitar like none else"
+                }
+            }
+            function complexself(){
+                document.getElementById("name").innerText = guy.name;
+                document.getElementById("age").innerText = guy.age;
+                document.getElementById("maritals").innerText = guy.maritals;
+                var noclasses = guy.classes.length;
+                for (var i = 0; i < noclasses; i++){
+                    document.getElementById("classes").innerText = document.getElementById("classes").innerText + " " + guy.classes[i];
+                }
+                document.getElementById("hobbiename").innerText = guy.hobbie.hobbiename;
+                document.getElementById("shortdescription").innerText = guy.hobbie.shortdescription;
+            }
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Complex Self App</h1>
+            <h3>Name</h3>
+            <p id="name"></p>
+            <h3>Age</h3>
+            <p id="age"></p>
+            <h3>Married</h3>
+            <p id="maritals"></p>
+            <h3>Classes</h3>
+            <p id="classes"></p>
+                <div id="container">
+                    <h3>Hobbies</h3>
+                    <p id="hobbiename"></p>
+                    <p id="shortdescription"></p>
+                </div>
+            <input type="button" onclick="complexself()" value="Try it">
+        </div>
+    <footer>
+        <p>2018, Johan Farfan</p>
+        <a href="../index.html">Home</a>
+    </footer>
+    </body>
+</html>

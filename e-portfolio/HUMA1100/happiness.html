@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Happiness According to History, Culture, Science and Religion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/jquery-ui.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/Popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body class="">
+    <div class="bg-light fixed-top border-bottom"><!--Menu-->
+        <ul class="nav nav-pills justify-content-end">
+            <li class="nav-item m-1 dropdown">
+                <a class="nav-link dropdown-toggle btn btn-danger" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Navigation</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#friends">Social Interactions</a>
+                    <a class="dropdown-item" href="#poor">Wealth</a>
+                    <a class="dropdown-item" href="#religion">Religion</a>
+                    <a class="dropdown-item" href="#identity">Identity</a>
+                </div>
+            </li>
+            <li class="nav-item m-1">
+                <a class="nav-link btn btn-danger" data-toggle="modal" href="#" data-target="#exampleModalCenter">About me</a>
+            </li>
+        </ul>
+    </div><!--End Menu-->
+    <br><br>
+    <div class="text-center bg-dark"><!--Banner?-->
+        <div class="container pt-3">
+            <h1 class="text-light">A Study About Happiness from 4 Different Perspectives.</h1>
+        <div id="happyCarousel" class="carousel slide pt-3" data-ride="carousel">
+            <div class="carousel-inner text-center">
+                <a href="#friends" class="carousel-item active text-center">
+                    <img class="w-50" src="img/friends.jpeg" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Social Interactions</h5>
+                        <p>Do all of them count to our general well living?</p>
+                    </div>
+                </a>
+                <a href="#poor" class="carousel-item text-center">
+                    <img class="w-50" src="img/poor.jpeg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>That Power</h5>
+                        <p>Is the rich happier than the poor? How? Why?</p>
+                    </div>
+                </a>
+                <a href="#religion" class="carousel-item text-center">
+                    <img class="w-50" src="img/religion.jpeg" alt="Fourth slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>All for God</h5>
+                        <p>Religion as a source of happiness.. or un-happiness? Are religious people happier than atheist?</p>
+                    </div>
+                </a>
+                <a href="#identity" class="carousel-item text-center">
+                    <img class="w-50" src="img/tied.jpeg" alt="Fifth slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Who are you? Who you are</h5>
+                        <p>The relationship between identity and the good living</p>
+                    </div>
+                </a>
+            </div>
+            <a class="carousel-control-prev" href="#happyCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#happyCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        </div>
+        <br>
+        <P class="container lead text-info">This website has been created just to compare and share my opinions about how the different
+            variables in the course of life affects the human being happiness. It's just my opinion and analysis against some
+            other opinions, studies, and some other related facts. It is not to claim any definitive answer of how to be happy, 
+            neither to make a list of happiness factors but just to try to show some of my personal research about this topic
+        </P>
+        <p class="container lead text-right text-info pb-3">Johan Farfan</p>
+    </div><!--end Banner-->
+
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">About Me</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-auto"><img src="img/johan.jpg"></div>
+                        <div class="col-auto">Johan Farfan,</div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div><!--end Modal-->
+
+    <div class="container text-secondary mb-5">
+        <br>
+        <a name="friends"></a>
+        <div class="container bg-light border border-secondary rounded p-4 mb-3">
+            <div class="art1">
+                <h3>Social Interactions</h3>
+                <br>
+                <div class="text-center"><img class="w-75" src="img/friends.jpeg" alt="">
+                    <p><small>Do all of them count to our general well living?</small></p>
+                </div>
+                <p class="lead">After This may not surprise many, but how much does social relationships affects our happiness?</p>
+                <a class="toggler-on-f text-white btn btn-dark">Click here to read more..</a>
+            </div>
+            <div class="art2-f">
+                <p>It seems to be as simple as to interact with other people is a basic need, some people would omit this because they think after
+                    having food, shelter and security everything else is complementary, but seems to be linked to the fact that we are one of those species
+                    whom socialize to survive, like a need our brain kept from evolution or just a designment from God.
+                </p>
+                <p>It is actually so important, that if we fail to fulfil this need our health can be affected, but, why?</p>
+                <p>Not digging too deep in the scientific reasons, the lack of these interactions brings us un-happiness, which goes beyond mental problems 
+                    but it also comes along with physical problems like a shorter life, some brain functions that even involve something as basic as 
+                    memorization are affected, and in conclusion a more miserable life.
+                </p>
+                <h5>Contradictions and Curious Facts</h5>
+                <p>It is always said that married individuals tend to be happier than the single ones, not too difficult to believe, and even more when there 
+                    some studies supporting family as a contributor element for happiness. Well, it isn't always the case. Bella De Paulo (a psychologist, of 
+                    course) claims that a single person have more social connections, and a better relationship with family, plus singles have more "psychologic 
+                    growth".
+                </p>
+                <p>Another form of interaction that helps to obtain some happiness like benefits is taking care of pets. This fact is not surprising in the US 
+                    where pets are actually "prescribed" as a form to combat psychological problems. They help with anxiety and give their owners a sense of being 
+                    needed. So, for someone that is lacking of some good old regular human interaction pets also help for a good life in some way.
+                </p>
+                <p>It's worth to mention that the boom of the social not so social media in this century is something that people have been using as a new way to 
+                    interact with their beloved ones, friends, family, and even strangers sometimes, are welcome in public or "private" profiles. The main promise 
+                    is beautiful, you can keep in touch with everyone, they will know what you're doing, anytime if you want to. Ironically social media ended up 
+                    becoming one of the main source of un-happiness mostly in young population. The biggest reasons, people is living tense life trying to look 
+                    happy, look interesting, and feeling bad about other people's happiness and interesting lives, in consequence, and as a second reason, virtual 
+                    networking can't replace real life interactions.
+                </p>
+                <div class="text-center">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/q-7zAkwAOYg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p><small>Robert Waldinger talks about The Good Life in TedTalk</small></p>
+                </div>
+                <h5>Resources and Other lectures</h5>
+                <ul class="">
+                    <li class=""><a href="http://time.com/5321262/science-behind-happy-healthy-relationships/">The Science Behind Happy Relationships</a></li>
+                    <li class=""><a href="https://www.psychologytoday.com/us/blog/ulterior-motives/201407/why-other-people-are-the-key-our-happiness">Why Other People Are the Key to Our Happiness</a></li>
+                    <li class=""><a href="https://www.cnbc.com/2017/10/31/this-harvard-study-reveals-how-you-can-be-happier-and-more-successful.html">Harvard's longest study of adult life reveals how you can be happier and more successful</a></li>
+                    <li class=""><a href="https://www.theguardian.com/commentisfree/2016/aug/10/psychology-single-people-more-fulfilled-relationships">Psychologists say single people are more fulfilled. I'm getting to understand why</a></li>
+                </ul>
+                <div class="text-right toggler-off-f"><a class="toggler-on-f text-white btn btn-dark">Click here to hide this section</a></div>
+            </div>
+        </div>
+        <a name="poor"></a>
+        <div class="container bg-light border border-secondary rounded p-4 mb-3">
+            <div class="art1">
+                <h3>That Power, Wealth</h3>
+                <br>
+                <div class="text-center"><img class="w-75" src="img/poor.jpeg" alt="">
+                    <p><small>Is the rich happier than the poor? How? Why?</small></p>
+                </div>
+                <p class="lead">There have been many studies and psychologist, supporting one side of this reality over the other one in happiness terms. 
+                     It's not simple and several conditions and factors affects the 'Good Life' of the rich and the poor.
+                </p>
+                <a class="toggler-on-w text-white btn btn-dark">Click here to read more..</a>
+            </div>
+            <div class="art2-w">
+                <p>So is one social group happier than the other one? The first thing that usually comes in mind is that being rich or
+                    having a considerable wealth is happiness itself, right?
+                </p>
+                <div class="row">
+                    <div class="col-6 ">
+                        <img class="w-75" src="img/pexels-photo-972995.jpeg" alt="">
+                        <p class="text-center"><small>Photo by bruce mars from Pexels</small></p>
+                    </div>
+                    <div class="col">
+                        <p>After all, most of the problems of the day to day living would be solved,
+                        capital could be the magic solution. But one question makes us going a bit deeper into this, are all the rich happy? Becasue it seems
+                        to be the case that many of them have a somewhat miserable life, or some of them seems to be living the perfect life, and then they 
+                        just suddenly take away their own life, have family problems or even having all they need they still feel empty or anxious.
+                        </p>
+                    </div>
+                </div>
+                <p>So what if the need more? For some, a race to patch whatever they lack starts right after they, having no explanation look for some other
+                    material stuff to acquire, or more money to to pile up. So ok, something else is needed to live the 'Good life' huh? does that means that 
+                    being poor and having all the other non material needs covered people can be happier? Once again the answer is not simple.
+                </p>
+                <div class="row">
+                    <div class="col-6 ">
+                        <p>How can you reach that happiness you want if you can barely survive with what you have? or, is the challenge of not having much to 
+                            exist the thing that gives us more reason to strive and look for what we want? but then again what if there are no chances of 
+                            economic improvement? would that make impossible to reach the Good Life, whatever that is?
+                        </p>
+                        <p>Extreme poverty is definitely something different than just being poor, usually extreme poverty exist in certain countries and 
+                            conditions may vary within them, for non rich people there's always a way to get their basic needs and material stuff, it doesn't
+                            mean they all want to be rich neither means they need to.
+                        </p>
+                    </div>
+                    <div class="col">
+                        <img class="w-75" src="img/pexels-photo-761144.jpeg" alt="">
+                        <p class="text-center"><small>Photo by Fancycrave.com from Pexels</small></p>
+                    </div>
+                </div>
+                <p>For the ones that dream with being wealthy, the more unreachable their options are it might get frustrating, if that's their main 
+                    focus. Having the chances can also be frustrating as well. There's an article by Erick W. Dollan, and although the study isn't 
+                    convincing (the object of study were 4.000 millionaires..), it states a very important condition, the most happiest ones were the ones 
+                    whom actually <strong>earn it!</strong> 
+                </p>
+                <p>Another article from the psychologist Nick Hobson in Psychology Today, states something similar, they both coincide in 
+                    the factor/condition of earning. It's something related to how people lives their lives then? Not the resources but how you keep them, 
+                    how you got them.
+                </p>
+                <div class="text-center">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/D0slPLpCYFM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p><small>Is it all about balance?</small></p>
+                </div>
+                <p>My humble opinion regarding the wealthfare and the Good Living is; regardless the condition of being wealthy or not wealthy, in both 
+                    cases (of course) there are factors that have the power to take the meaning away from life, not all the meaning, but it's something 
+                    strong enough to affect the general happiness. 
+                </p>
+                
+                <h5>Resources and Other lectures</h5>
+                <ul class="">
+                    <li class=""><a href="http://psycnet.apa.org/record/2017-56298-001">Wealth, poverty, and happiness: Social class is differentially associated with positive emotions</a></li>
+                    <li class=""><a href="https://newrepublic.com/article/120859/money-doesnt-buy-happiness-poverty-increases-sadness-study">Wealth Doesn't Make the Rich Happier, But Poverty Makes the Poor Sadder</a></li>
+                    <li class=""><a href="https://www.psychologytoday.com/us/blog/ritual-and-the-brain/201802/the-million-dollar-link-between-wealth-and-happiness">The Million-Dollar Link Between Wealth and Happiness</a></li>
+                    <li class=""><a href="https://www.psypost.org/2018/02/large-amount-wealth-linked-increased-happiness-especially-among-earned-50767">Large amount of wealth linked to increased happiness — especially among those who earned it</a></li>
+                    <li class=""><a href="https://www.newyorker.com/business/currency/do-the-poor-have-more-meaningful-lives">Do the Poor Have More Meaningful Lives?</a></li>
+                </ul>
+                <div class="text-right toggler-off-w"><a class="toggler-on-f text-white btn btn-dark">Click here to hide this section</a></div>
+            </div>
+        </div>
+        <a name="religion"></a>
+        <div class="container bg-light border border-secondary rounded p-4 mb-3">
+            <div class="art1">
+                <h3>All for God</h3>
+                <br>
+                <div class="text-center"><img class="w-75" src="img/religion.jpeg" alt="">
+                    <p><small>Photo by Rodolfo Clix from Pexels</small></p>
+                </div>
+                <p class="lead">Religion have been previously studied from different angles by the scientific community regarding the effects that it has in our 
+                    behavior. Although lot of questions have been answered, it isn't an easy study and new questions and interpretations always come out.
+                </p>
+                <a class="toggler-on-r text-white btn btn-dark">Click here to read more..</a>
+            </div>
+            <div class="art2-r">
+                <p><strong>Side note:</strong> I'd like to clarify that I won't try to make this section a rhetoric article about religion, neither to convince anyone about
+                    my believes, nor convince anyone to not believe. As anyone else, I guess I have my own opinions about each religion and religions 
+                    and faith in general, but this sub article is just to objectively -as much as I can, compare happiness levels on previous studies 
+                    about religion and related data.
+                </p>
+                <p>The most obvious question is, are religious people happier than non religious? Well, to start, most of the world's population believes in some 
+                    religion or have certain faith, it's a still astonishing 84%. If that percentage of believers is increasing or decreasing that's something debatable 
+                    it doesn't affect the purpose of this analysis, but every certain years there's a new religion to add on to the lot.
+                </p>
+                <p>It's an important data, it means that even religions have been evolving, why?</p>
+                <p>For some researchers, they have to constantly adapt to avoid loosing followers. If they are right, the first thing I can think about is that they are 
+                    becoming more flexible, giving more freedom, less punishable sins, something easier to follow.
+                </p>
+                <div class="row">
+                    <div class="col">
+                        <p>What about the other ones that have remained the same? Are their believers happier? or just happy in general?</p>
+                        <P>According to an article by Kayonda Hubert Ngamaba in conversation.com, it depends on the group;</P>
+                        <cite class="text-right">Our findings suggest that Protestants, Buddhists and Roman Catholics are happier and more satisfied with their lives, compared with other 
+                            groups. Jews, Hindus, Muslims, and the non-religious were in between, while Orthodox Christians were found to have the lowest happiness and life 
+                            satisfaction rates.
+                        </cite>
+                    </div>
+                    <div class="col">
+                        <img class="w-75" src="img/234541.jpeg">
+                    </div>
+                </div>
+                <p>Something that many researchers seems to ignore is how devoted people are, many people confess to have a faith but the involvement and compromise levels vary, 
+                    and there has to be a notorious difference on it.
+                </p>
+                <h5>Religious Women vs Religious Men</h5>
+                <p>One thing almost every religion, if not all of them treat different is gender, usually there's a role and some other involvements for men and women. As an example,
+                    anyone knows that men have it easier in the path of "God" for Abrahamic based religions, where as women, are mostly looked as the origin of sin, or the ones who have 
+                    to cover themselves for whatever different reason they have in each religion. So, it's natural to ask, are women as happy as their counterpart in religions?
+                </p>
+                <p>Sadly, I can't close this case with an affirmation, as I could not find any study with enough data, the ones existing were limited to just one religion and one country. 
+                    Yet, there's always some good information you can take from them. According to a study of Jong Hyun Jung, korean women are more likely to follow religious control and 
+                    rely more on the social network and attendance from the church, where as men seems to be more independent from this.
+                </p>
+                <h5>Facts about religion around the world</h5>
+                <p>Yes, there are some studies that support religion as a contributor of happiness, coming from countries like the US where the majority of the population is religious. 
+                    The easiest explanation is that it contributes to fight depression, why? The reasonable relationship that I can see from this conclusion is that it helps people to socialize, 
+                    keeps family members together, etc, the main benefits of socialization. So, one point for religion.
+                </p>
+                <p>When you think abut the happiest countries on earth, in the northern Europe, religion is not one of the main factors of happiness.. because they are the most atheist countries in 
+                    the world. They seem to have the "right optimized culture" and standards of living to live the good life, but it doesn't exactly means that religion can or can't contribute, they 
+                    probably just don't need another factor to contribute with their happy life.
+                </p>
+                <div class="text-center">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wcbqczxL03o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p><small>A short analysis from the YouTube channel, Science Plus</small></p>
+                </div>
+                <h5>Resources and Other lectures</h5>
+                <ul class="">
+                    <li class=""><a href="https://theconversation.com/are-religious-people-happier-than-non-religious-people-87394">Are religious people happier than non-religious people?</a></li>
+                    <li class=""><a href="https://www.psychologytoday.com/us/blog/the-human-beast/201102/does-religion-make-people-happier">Does religion make people happier? Are atheists actually happier?</a></li>
+                    <li class=""><a href="http://www.pewforum.org/2016/04/12/religion-in-everyday-life/">Highly religious Americans are happier and more involved with family but are no more likely to exercise, recycle or make socially conscious consumer choices</a></li>
+                    <li class=""><a href="https://thesecularcommunity.org/">The Secular Community</a></li>
+                    <li class=""><a href="https://www.psychologytoday.com/us/blog/the-tangled-wing/201010/the-happiness-summit-the-good-life-according-four-religious-leaders">The Happiness Summit: The Good Life According to Four Religious Leaders</a></li>
+                    <li class=""><a href="https://www.researchgate.net/figure/The-association-between-stress-and-happiness-by-religious-attendance-among-women-Source_fig1_264427557">Some Data About Religion and Woman</a></li>
+                </ul>
+                <div class="text-right toggler-off-r"><a class="toggler-on-f text-white btn btn-dark">Click here to hide this section</a></div>
+            </div>
+        </div>
+        <a name="identity"></a>
+        <div class="container bg-light border border-secondary rounded p-4 mb-3">
+            <div class="art1">
+                <h3>Who are you? Who you are</h3>
+                <br>
+                <div class="text-center"><img class="w-75" src="img/tied.jpeg" alt="">
+                    <p><small>Photo by Engin Akyurt from Pexels</small></p>
+                </div>
+                <p class="lead">A concept that many would not understand, at least until they get educated about it is the relationship between happiness 
+                    and Identity. Even if you're one of the ones that get an idea of how it is, then, knowing how you are equals being happy?
+                </p>
+                <a class="toggler-on-i text-white btn btn-dark">Click here to read more..</a>
+            </div>
+            <div class="art2-i">
+                <p>Identity is so wide sometimes we ignore all the things that are involved around it and it's behavioral effects. I think it'd 
+                    be worth to mention, nowadays it's even more complex than it used to be, due to the current opinions even on the scientific community about 
+                    sexual identity, why to cite this topic? because identity is just a conglomerate of everything we are, sexuality, religiosity, morally, 
+                    racially, culturally etc.
+                </p>
+                <h5>Racial and Cultural Identity</h5>
+                <p>Why is racial identity something that gave people certain feeling of happiness, how is this a trustable fact? This one is a complex one for me,
+                    but according to psychology, belongingness is something good for our mental sanity, it's part of a sense of realization, and realization is 
+                    to happiness.
+                </p>
+                <p>Does it work the same with the sense of nationality? Probably, I must say this is an affirmation from my observations of immigrant workers, 
+                    especially blue collar workers. Even when they feel excluded there's still some sense of proud wearing their flags, listening to their music,
+                    which if you come to think, it can be an isolating behavior considering that they're living in another country, but still there are smiles, 
+                    and the only thing I can think about is memories, memories linked to a national identity bringing some good old times to them.
+                </p>
+                <h5>Sexual and Religious Identity</h5>
+
+                <div class="text-center">
+                    <img src="img/pexels-photo-1209843.jpeg">
+                    <p><small>Photo by Sharon McCutcheon from Pexels</small></p>
+                </div>
+                <h5>Harmony; are we living our lives as our real selves?</h5>
+                <p>Curious fact, lie detectors works capturing the uncomformity our brains reflects whenever a person lies, in body language, such brain unconformity 
+                    are also manifested, usually in changes in tone or when people hide their hands or have to touch, hide, any part of their faces. With that said, can 
+                    you imagine how uncomfortable our psyche is being someone we are not? living the never ending lie?
+                </p>
+                <p>In almost every ancient civilization, the ones that started to make philosophic statements about the Good Living, Greeks, Hebrews, Analects, they talked 
+                    in their own ways about being correct, honest, how to live your life in harmony so that we can feel good with ourselves. There's an issue with all 
+                    of those ideologies, certainly some of their statements are true, but the problem is that everything you have to do, how you do it, is stated, in a very 
+                    closed way, then, how can you feel good with yourself following teachings that goes against who you are?
+                </p>
+                <p>Returning to the controversial case of sexual identity, when you compare it to religious or strict cultural patrons something always goes odd. This isn't 
+                    something new, people might have been living in contradiction over centuries, trying to live as they "should", trying to fit, trying to be moral, or just 
+                    hiding their real selves to their own privacy. This is not only a sexual identity issue, but it's easier to see it in these kind of cases.
+                </p>
+                <h5>Resources and Other lectures</h5>
+                <ul class="">
+                    <li class=""><a href="https://msutoday.msu.edu/news/2011/racial-identity-tied-to-happiness-study-finds/">RACIAL IDENTITY TIED TO HAPPINESS, STUDY FINDS</a></li>
+                    <li class=""><a href="http://www.behappy101.com/your-true-identity.html">The Foundation for Happiness, Your True Identity</a></li>
+                </ul>
+                <div class="text-right toggler-off-i"><a class="toggler-on-f text-white btn btn-dark">Click here to hide this section</a></div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-secondary text-white text-center pt-5 mt-5 pb-4">
+        <div class="row">
+            <div class="col">
+                <h6>Navigation</h6>
+                <ul class="list-unstyled">
+                    <li><a class="text-light" href="#friends">Social Interactions</a></li>
+                    <li><a class="text-light" href="#poor">Wealth</a></li>
+                    <li><a class="text-light" href="#religion">Religion</a></li>
+                    <li><a class="text-light" href="#identity">Identity</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h6>Courtesies</h6>
+                <ul class="list-unstyled">
+                    <li><a class="text-light" href="www.pexels.com">Pexels</a></li>
+                    <li><a class="text-light" href="www.getbootstrap.com">Bootstrap</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h6>Resources</h6><span class="glyphicon glyphicon-education" aria-hidden="true"></span>
+                <ul class="list-unstyled">
+                    <li><a class="text-light" href="ProjectReflection.pdf">Research Analysis</a></li>
+                    <li><a class="text-light" href=""></a>More Resources</li>
+                    <li><a class="text-light" href="http://johansblog.com">Johan Farfan</a></li>
+                </ul>
+            </div>
+        </div>
+        <P>2018, Johan Farfan. A different Essay and possible future contribution as a social project.</P>
+    </footer>
+</body>
+</html>

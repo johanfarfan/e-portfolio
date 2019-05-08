@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Johan's Hobbies</title>
+        <link rel="stylesheet" href="../simplebs.css">
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript" src="jquery-cycle-all.js"></script>
+        <script type="text/javascript" src="HobbiesInfo.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Johan's fav activities :D</h1>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <!--few things to say about this html document, most of the operation is realized on the 
+                HobbiesInfo.js file, we are just using 4 elements with ids in the html document for our js file to be
+                able to edit or change their properties, prev and next works as controlers and hobbiesLobby as a div to
+                show things loaded in the js file, from the json file-->
+                <div class="col" style="text-align: center;"><br><br><br><br><a href="#" id="prev">Prev</a></div>
+                <div class="col" id="hobbiesLobby" style="text-align: center;"></div>
+                <div class="col" style="text-align: center;"><br><br><br><br><a href="#" id="next">Next</a></div>
+            </div>
+            <br><br><br><br><br><br><br><br><br><hr>
+            <!--the div "information is just like our "hobbiesLobby" div, another tag just used to be altered by the js
+            file to show information, but using a different method-->
+            <div class="container" id="information">
+                <figure>
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+        </div>
+        <footer>
+            <p>2018, Johan Farfan</p>
+            <a href="../index.html">Home</a>
+        </footer>
+    </body>
+</html>

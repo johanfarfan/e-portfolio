@@ -1,0 +1,108 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.menuitem{
+    background-color: rgb(22, 128, 189);
+    color: rgb(255, 241, 117);
+    padding: .1em .5em;
+    border-radius: 1em;
+}
+.imgbanner{
+    margin-top: 2em;
+    width: 80%;
+    position: relative;
+}
+.intro{
+    padding: 4em 2em;
+    margin-top: 5em;
+    background-color: rgba(204, 35, 35, 0.473);
+    color: black;
+}
+.container1{
+    padding: 4em 2em;
+    margin-top: 10em;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+.container1 img{
+    display:  none;
+}
+.container2{
+    padding: 2em;
+    margin-top: 10em;
+    background-color: rgba(44, 54, 65, 0.904);
+    color: rgb(235, 148, 148);
+}
+.container1 img{
+    width: 450px;
+}
+.container2 img{
+    width: 300px;
+}
+.container3{
+    padding: 1em;
+    margin-top: 10em;
+    border-radius: 50%;
+    background-color: rgba(221, 56, 56, 0.699);
+    color: white;
+}
+.container4{
+    padding: 4em 2em;
+    margin-top: 15em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgba(204, 35, 35, 0.863);
+    color: white;
+}
+.title1-2{
+    grid-column: 1/5;
+}
+li{
+    margin: 1em;
+    text-decoration: none;
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+a :visited{
+    color: black;
+}
+li :hover{
+    background-color: yellow;
+}
+img{
+    width: 100%;
+}
+body{
+    text-align: center;
+    font-family: cursive;
+    background-color: black;
+    color: lightgrey;
+    line-height: 2em;
+    font-size: x-large
+}
+.header{
+    position: fixed;
+    top: 10%;
+    right: 10%;
+    font-size: medium;
+    width: 200px;
+}
+.section{
+    width:70%;
+    min-width: 450px;
+    background-image: url('../img/meme.jpg');
+    background-attachment: fixed;
+}
+footer{
+    width:70%;
+    min-width: 650px;
+    padding: 2em 1em;
+    margin-top: 15em;
+    background-color: darkgray;
+    color: black;
+    font-size: small;
+}
